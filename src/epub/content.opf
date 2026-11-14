@@ -77,6 +77,8 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor">Grosset &amp; Dunlap</dc:contributor>
 		<meta property="file-as" refines="#editor">Grosset &amp; Dunlap</meta>
+		<link href="https://en.wikipedia.org/wiki/Grosset_%26_Dunlap" refines="#editor" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50072416.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<dc:contributor id="transcriber-1">Tim Lindell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Lindell, Tim</meta>
